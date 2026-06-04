@@ -1,0 +1,10 @@
+body {
+    background-color: #000000;
+}
+
+/* Usamos display: flex en el contenedor para que justify-content tenga efecto */
+.contenedor-tarjeta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaciado opcional */
+}
