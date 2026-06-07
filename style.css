@@ -8,3 +8,62 @@ body {
     justify-content: center;
     margin-top: 20px; /* Espaciado opcional */
 }
+
+
+body {
+    background-color: #000000;
+}
+
+
+.carousel-wrapper {
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+    padding-bottom: 40px; /* espacio para los indicadores */
+}
+
+
+.carousel-title {
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+
+.resena-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 24px;
+    min-height: 160px;
+}
+
+
+.stars {
+    color: #f5a623;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.resena-texto {
+    color: #dddddd;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+
+.resena-autor {
+    color: #888888;
+    font-size: 0.85rem;
+}
+
+
+.carousel-indicators button {
+    background-color: #666;
+}
+.carousel-indicators .active {
+    background-color: #aaa;
+}
