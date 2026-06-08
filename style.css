@@ -278,3 +278,14 @@ a.navbar-brand.mx-auto{
     display: flex;
     justify-content: end;
 }
+
+
+#doaza{
+    display: flex;
+    justify-content: center;
+}
+
+#d1{
+    display: flex;
+    justify-content: center;
+}
