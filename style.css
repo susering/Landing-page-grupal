@@ -274,10 +274,7 @@ div.container-fluid img{
     border-radius: 100%;
 }
 
-
-
 a.navbar-brand.mx-auto{
     display: flex;
     justify-content: end;
 }
-
