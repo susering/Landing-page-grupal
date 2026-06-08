@@ -289,3 +289,20 @@ a.navbar-brand.mx-auto{
     display: flex;
     justify-content: center;
 }
+
+.boton-compra {
+    display: block;
+    text-align: center;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: white;
+    background: linear-gradient(135deg, #ff6b6b, #000000);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: clamp(0.75rem, 2.5vw, 0.9rem);
+    transition: transform 0.2s ease, background 0.2s ease;
+    white-space: nowrap;
+}
