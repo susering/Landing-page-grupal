@@ -257,3 +257,13 @@ body {
     border-radius: 20px;
     display: block;
 }
+
+
+
+.card{
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
