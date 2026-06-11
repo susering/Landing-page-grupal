@@ -1,12 +1,14 @@
 body {
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 /* Usamos display: flex en el contenedor para que justify-content tenga efecto */
 .contenedor-tarjeta {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* Espaciado opcional */
+    margin-top: 20px;
+    /* Espaciado opcional */
 }
 
 .navbar {
@@ -33,7 +35,8 @@ body {
     flex: 1;
     max-width: 400px;
     position: relative;
-    padding-bottom: 40px; /* espacio para los indicadores */
+    padding-bottom: 40px;
+    /* espacio para los indicadores */
 }
 
 
@@ -78,6 +81,7 @@ body {
 .carousel-indicators button {
     background-color: #666;
 }
+
 .carousel-indicators .active {
     background-color: #aaa;
 }
@@ -92,13 +96,15 @@ body {
 }
 
 .container {
+    display: flex;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .footer-row {
     display: flex;
-    flex-wrap: wrap;           /* se adapta a pantallas chicas */
+    flex-wrap: wrap;
+    /* se adapta a pantallas chicas */
     justify-content: space-around;
     gap: 30px;
 }
@@ -277,21 +283,21 @@ body {
 
 
 
-.card{
+.card {
     transition: 0.5s;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-10px);
 }
 
 /*NAV BAR*/
 
-div.container-fluid img{
+div.container-fluid img {
     border-radius: 100%;
 }
 
-a.navbar-brand.mx-auto{
+a.navbar-brand.mx-auto {
     display: flex;
     justify-content: end;
 }
@@ -301,12 +307,12 @@ a.navbar-brand.mx-auto{
 
 
 /*tarjeta*/
-#doaza{
+#doaza {
     display: flex;
     justify-content: center;
 }
 
-#d1{
+#d1 {
     display: flex;
     justify-content: center;
 }
@@ -324,13 +330,14 @@ a.navbar-brand.mx-auto{
     text-transform: uppercase;
     font-weight: 600;
     font-size: clamp(0.75rem, 2.5vw, 0.9rem);
-    transition:0.2s ease;
+    transition: 0.2s ease;
     white-space: nowrap;
     transition: 0.25s;
 }
 
 #c1 {
-    width: clamp(240px, 80vw, 280px); /* flexible pero con mínimo y máximo */
+    width: clamp(240px, 80vw, 280px);
+    /* flexible pero con mínimo y máximo */
     height: 380px;
     border-radius: 36px;
     overflow: hidden;
@@ -350,6 +357,15 @@ a.navbar-brand.mx-auto{
 }
 
 
-.boton-compra:hover{
+.boton-compra:hover {
     transform: translateY(-5px);
+}
+
+
+@media (max-width: 450px) {
+    .footer-row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
 }
